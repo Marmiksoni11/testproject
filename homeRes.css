@@ -361,7 +361,7 @@
         font-size: 0.5rem;
     }
     footer::after {
-        background: url(/images/footer_bottom_bg.jpg)center center/cover;
+        background: url(images/footer_bottom_bg.jpg)center center/cover;
     }
     #divForForm {
         height: 106vh;
