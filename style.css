@@ -1,0 +1,266 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+   font: 14px/24px 'Poppins', sans-serif;
+   font-weight: 400;
+}
+
+/* below fonts are for the footer */
+@font-face {
+    font-family: thin;
+    src: url("/fonts/Raleway-Thin.ttf");
+}
+@font-face {
+    font-family: Extralight;
+    src: url("/fonts/Raleway-ExtraLight.ttf");
+}
+
+#top-header{
+    display: flex;
+    flex-direction: column;
+    height: 40.7vh;
+    /* align-items: center; */
+    justify-content: center;
+}
+#top-header::after{
+    content: "";
+    background: url(/images/rainbowstripe.jpg);
+    height: 0.5vh;
+    position: relative;
+    bottom: 65%;
+    z-index: 0;
+}
+#logo{
+    position: relative;
+    bottom: 29%;
+    left: 1%;
+    width: 10%;
+}
+#logo img{
+    height: 12vh;
+    left: 10%;
+}
+.pageTitle{
+    /* background: aquamarine; */
+    position: absolute;
+    top: 15%;
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pageTitle h1{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.pageTitle::after{
+        content: "";
+        background: url(/images/titleposter.jpg);
+        height: 17vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+}
+
+#formSection{
+    height:150vh;
+}
+
+.asterisk{
+    color: red;
+}
+
+.formTitle  .asterisk{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.formTitle{
+    letter-spacing: 0.25px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    align-items: center;
+}
+
+.formTitle h3{
+    color: #f05a21;
+    /* font-size: 1.6rem; */
+    font-size: 2rem;
+    font-weight:bolder;
+    padding-bottom: 3%;
+}
+
+.formTitle p{
+    /* font-size: 0.9rem; */
+    font-size: 1.2rem;
+    color: #f05a21;
+    padding-bottom: 3%;
+}
+
+#gujTitle1{
+    /* font-size: 1.3rem; */
+    font-size: 1.7rem;
+    color: #f05a21;
+    padding-bottom: 3%;
+}
+
+.gujTitle{
+    font-size: 1.3rem;
+    color: #f05a21;
+}
+
+#divForForm{
+    display: flex;
+    justify-content: center;
+    /* height: 138vh; */
+    height: 129vh;
+}
+
+#form{
+    height: 115vh;
+    font-size: 1.4rem;
+    width: 57vw;
+    position: relative;
+    top: 4%;
+    display: flex;
+    flex-direction: column;
+    /* background: aqua; */
+    padding: 4%;
+    border: 1px solid #858585;
+    border-radius: 1.813rem;
+    color: #3d3d3d;
+}
+
+.box{
+    padding-top: 1rem;
+    padding-bottom: 6%;
+}
+
+.box input{
+    border-radius: 1.375rem;
+    height: 5vh;
+    width: 18vw;
+    border: 1px solid #858585;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+#pay-number input{
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+#gender{
+    display: flex;
+    align-items: center;
+}
+
+#gender input {
+    width: 2vh;
+    margin-right: 0.5%;
+    margin-left: 2%;
+    
+}
+
+/* #gender label{
+    padding-right: 1%;
+} */
+#male{ 
+    position: relative;
+    left: 1%;   
+}
+
+#female{ 
+    position: relative;
+    left: 1%;   
+}
+
+#note p{
+    font-size: 1rem;
+    text-decoration: wavy;
+}
+
+#note b{
+    color: #f05a21;
+}
+
+#btnContainer button{  
+    height: 7vh;
+    width: 15vw;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2.438rem;
+    background: #f05a21;
+    box-shadow: 0px 5px 25px 0px rgba(240, 90, 33, 0.35);
+    transition: box-shadow 0.3s ease-in;
+}
+
+#btnContainer button:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#register{
+    margin-right: 33%;
+    margin-left: 4%;
+}
+
+#gujTitle2{
+    padding-bottom: 5%;
+}
+
+#formSection::after{
+    content: "";
+    display: block;
+    background: url(/images/rainbowstripe.jpg);
+    height: 0.5vh;
+    position: relative;
+    z-index: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    width: 100%;
+}
+footer::after{
+    content: '';
+    background: url(/images/footer_bottom_bg.jpg) repeat-x;
+    height: 21.3vh;
+    width: 100%;
+    position: relative;
+    top: 21%;
+}
+#copyright{
+    position: relative;
+    top: 3%;
+    display: flex;
+    /* background: aqua; */
+    width: 100%;
+    /* text-align: center; */
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    font-family: Extralight;
+    color: #666;
+    /* border-top: 2px solid gainsboro;
+    border-top-width: thin; */
+    /* border-bottom: 2px solid gainsboro;
+    border-bottom-width: thin; */
+}
+
+

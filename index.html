@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaymbil Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- below sheet is for responsive CSS -->
+    <link rel="stylesheet" href="homeRes.css">
+</head>
+<body>
+
+    <header id="top-header">
+        <div id="logo">
+            <img src="images/rajnagar-logo.jpg" alt="logo not available">
+        </div>
+
+        <div class="pageTitle">
+            <h1>વિદ્યાર્થી નોંધણી</h1>
+        </div>
+    </header>
+    
+    <section id="formSection">
+        <div class="titleContainer">
+            <div class="formTitle">
+                <h3>Student Registration</h3>
+                <p><b class="asterisk">*</b> Denotes compulsory fields & special symbol like " < ' > etc. is not allowed due security reason</p>
+                <p class="gujTitle" id="gujTitle1">વિદ્યાર્થીમિત્ર, આ આપના registration માટેનું ફોર્મ છે.. પરીક્ષાનુ ફોર્મ અલગથી ભરવાનું છે..</p>
+            </div>
+        </div>
+
+        <div id="divForForm">
+            <form action="" id="form" class="container" onsubmit="validate()" name="myform">
+
+                <div id="name" class="box"> 
+                    <label for=""> Enter Name <b class="asterisk">*</b> : </label>
+                    <input type="text" placeholder="Enter Name" name="fname">
+                </div>
+
+                <div id="gender" class="box">
+                    <label for="">Gender <b class="asterisk">*</b> : </label>
+                    
+                    <input type="radio" id="Imale" name="mygender" value="" name="fgender" >
+                    <label for="html" id="male">Male</label>
+
+                    <input type="radio" id="Ifemale" name="mygender" value="" name="fgender" >
+                    <label for="css" id="female">Female</label>
+
+                    <!-- GENDER * :<input type="radio" name="myGender">Male
+                    <input type="radio" name="myGender">Female -->
+                </div>
+
+                <div id="m-number" class="box">
+                    <label for="">Enter Mobile Number <b class="asterisk">*</b> : </label>
+                    <input type="tel" placeholder="Enter Mobile Number" name="fnumber">
+                </div>
+
+                <div id="email" class="box">
+                    <label for="">Enter Email : </label>
+                    <input type="email" placeholder="Enter Email">
+                </div>
+
+                <div id="date" class="box">
+                    <label for="">Select Date for Aaymbil <b class="asterisk">*</b> : </label>
+                    <input type="date" placeholder="Select Date" name="fdate">
+                </div>
+
+                <div id="note" class="box">
+                    <p><b>Note: </b>You can select only 1 date for one registration</p>
+                </div>
+
+                <div id="pay-number" class="box">
+                    <label for="">Paytm / Phone-Pay / Google-Pay Number <b class="asterisk">*</b> : </label>
+                    <input type="tel" placeholder="Gpay/Paytm/Phonepay Number" name="fpay">
+                </div>
+
+                <div id="formFooter" class="box">
+                    <p class="gujTitle" id="gujTitle2">વિદ્યાર્થીમિત્ર, આ આપના registration માટેનું ફોર્મ છે.. પરીક્ષાનુ ફોર્મ અલગથી ભરવાનું છે..</p>
+                    <div id="btnContainer">
+                        <button type="submit" id="register">Register</button>
+                        <button type="reset" id="reset">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section> 
+
+    <footer>
+        <div id="copyright">
+            <h3>© Copyright 2019 Rajnagar. All Rights Reserved.</h3>
+        </div>
+            <!-- <img src="/images/footer_bottom_bg.jpg" alt="img not available"> -->
+    </footer>   
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+
+
+/* Responsive designing Starts here */
+
+
+@media only screen and (min-width:1024px) /*and (max-width:1440px)*/{
+    #top-header {
+        height: 40.7vh;
+        width: 100%;
+        /* align-items: center; */
+        }
+        #logo{
+            width: 20vw;
+        }
+    
+        .formTitle h3 {
+            font-size: 2.5rem;
+        }
+        .formTitle p {
+            font-size: 1rem;
+            padding: 1rem;
+        }
+        #gujTitle1 {
+            font-size: 1.5rem;
+        }    
+        .formTitle {
+            position: relative;
+            /* left:  2%; */
+        }
+        #form {
+            height: 141vh;
+            width: 61vw;
+            top: 6%;
+            font-size: 1.3rem;
+        }
+        .box input {
+            height: 6vh;
+            width: 24vw;
+            font-size:1.2rem;
+            padding-left: 0.6rem;
+        }
+    
+        #pay-number input {
+            padding-left: 1rem;
+            font-size: 1.1rem;
+            width: 23vw;
+        }
+        .gujTitle {
+            font-size: 1.3rem;
+        }
+        .formTitle .asterisk {
+            font-size: 1rem
+        }
+        #btnContainer button {
+            height: 10vh;
+            width: 18vw;
+            color: white;
+            font-size: 1.5rem;
+        }
+    
+        #copyright {
+            font-size: 1rem;
+        }
+        footer::after {
+            height: 22.3vh;
+        }
+        #divForForm {
+            height: 165vh;
+        }
+        #formSection {
+            height: 194vh;
+        }
+        #register {
+            margin-right: 20%;
+        }
+}
+
+
+@media only screen and (min-width:801px) and (max-width:1024px){
+    #top-header {
+        height: 40.7vh;
+        width: 100%;
+        /* align-items: center; */
+        }
+        #logo{
+            width: 20vw;
+        }
+    
+        .formTitle h3 {
+            font-size: 2.5rem;
+        }
+        .formTitle p {
+            font-size: 1rem;
+            padding: 1rem;
+        }
+        #gujTitle1 {
+            font-size: 1.5rem;
+        }    
+        .formTitle {
+            position: relative;
+            /* left:  2%; */
+        }
+        #form {
+            height: 128vh;
+            width: 89vw;
+            top: 10%;
+            font-size: 1.5rem;
+        }
+        .box input {
+            height: 5vh;
+            width: 35vw;
+            font-size:1.2rem;
+            padding-left: 0.6rem;
+        }
+    
+        #pay-number input {
+            padding-left: 0rem;
+            font-size: 1.1rem;
+            width: 32vw;
+        }
+        .gujTitle {
+            font-size: 1.3rem;
+        }
+        .formTitle .asterisk {
+            font-size: 1rem
+        }
+        #btnContainer button {
+            height: 8vh;
+            width: 22vw;
+            color: white;
+            font-size: 1.5rem;
+        }
+    
+        #copyright {
+            font-size: 1rem;
+        }
+        footer::after {
+            background: url(/images/footer_bottom_bg.jpg)center center/cover;
+            height: 30.3vh;
+        }
+        #divForForm {
+            height: 150vh;
+        }
+        #formSection {
+            height: 180vh;
+        }
+}
+
+
+
+
+@media only screen and (min-width:501px) and (max-width:800px){
+
+    #top-header {
+        height: 40.7vh;
+        width: 100%;
+        align-items: center;
+        }
+        #logo{
+            width: 20vw;
+        }
+    
+        .formTitle h3 {
+            font-size: 2.5rem;
+        }
+        .formTitle p {
+            font-size: 1rem;
+            padding: 1rem;
+        }
+        #gujTitle1 {
+            font-size: 1.5rem;
+        }    
+        .formTitle {
+            position: relative;
+            /* left:  2%; */
+        }
+        #form {
+            height: 113vh;
+            width: 89vw;
+            top: 10%;
+            font-size: 1.2rem;
+        }
+        .box input {
+            height: 5vh;
+            width: 46vw;
+            font-size:1.2rem;
+            padding-left: 0.6rem;
+        }
+    
+        #pay-number input {
+            padding-left: 0rem;
+            font-size: 1.1rem;
+            width: 50vw;
+        }
+        .gujTitle {
+            font-size: 0.8rem;
+        }
+        .formTitle .asterisk {
+            font-size: 1rem
+        }
+        #btnContainer button {
+            height: 6vh;
+            width: 24vw;
+            color: white;
+            font-size: 0.8rem;
+        }
+    
+        #copyright {
+            font-size: 0.8rem;
+        }
+        footer::after {
+            background: url(/images/footer_bottom_bg.jpg)center center/cover;
+        }
+        #divForForm {
+            height: 135vh;
+        }
+        #formSection {
+            height: 158vh;
+        }
+
+}
+
+
+
+
+
+@media only screen and (min-width:301px) and (max-width:500px){
+
+    
+    #top-header {
+        height: 40.7vh;
+        width: 100%;
+        align-items: center;
+        }
+        #logo{
+            width: 20vw;
+        }
+    
+        .formTitle h3 {
+        font-size: 1.5rem;
+        }
+        .formTitle p {
+            font-size: 0.75rem;
+            padding: 1rem;
+        }
+        #gujTitle1 {
+            font-size: 1rem;
+        }    
+        .formTitle {
+            position: relative;
+            /* left:  2%; */
+        }
+        #form {
+            height: 95vh;
+            width: 89vw;
+            top: 10%;
+            font-size: 0.9rem;
+        }
+        .box input {
+            height: 3vh;
+            width: 46vw;
+            font-size: 0.8rem;
+            padding-left: 0.6rem;
+        }
+    
+        #pay-number input {
+            padding-left: 0rem;
+            font-size: 0.6rem;
+            width: 50vw;
+        }
+        .gujTitle {
+            font-size: 0.8rem;
+        }
+        .formTitle .asterisk {
+            font-size: 1rem
+        }
+        #btnContainer button {
+            height: 4vh;
+            width: 24vw;
+            color: white;
+            font-size: 0.8rem;
+        }
+    
+        #copyright {
+            font-size: 0.8rem;
+        }
+        footer::after {
+            background: url(/images/footer_bottom_bg.jpg)center center/cover;
+        }
+        #divForForm {
+            height: 113vh;
+        }
+        #formSection {
+            height: 135vh;
+        }
+}
+
+
+
+
+@media only screen and (max-width:300px){
+
+    #top-header {
+    height: 40.7vh;
+    width: 100%;
+    align-items: center;
+    }
+    #logo{
+        width: 20vw;
+    }
+
+    .formTitle h3 {
+    font-size: 1.5rem;
+    }
+    .formTitle p {
+        font-size: 0.65rem;
+        padding: 1rem;
+    }
+    #gujTitle1 {
+        font-size: 1rem;
+    }    
+    .formTitle {
+        position: relative;
+        /* left:  2%; */
+    }
+    #form {
+        height: 89vh;
+        width: 89vw;
+        top: 10%;
+        font-size: 0.9rem;
+    }
+    .box input {
+        height: 3vh;
+        width: 46vw;
+        font-size: 0.8rem;
+        padding-left: 0.6rem;
+    }
+
+    #pay-number input {
+        padding-left: 0rem;
+        font-size: 0.6rem;
+        width: 50vw;
+    }
+    #gujTitle1 {
+        font-size: 0.8rem;
+    }
+    .gujTitle {
+        font-size: 0.8rem;
+    }
+    .formTitle .asterisk {
+        font-size: 1rem
+    }
+    #btnContainer button {
+        height: 4vh;
+        width: 24vw;
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    #copyright {
+        font-size: 0.5rem;
+    }
+    footer::after {
+        background: url(/images/footer_bottom_bg.jpg)center center/cover;
+    }
+    #divForForm {
+        height: 106vh;
+    }
+    #formSection {
+        height: 125vh;
+    }
+
+}
